@@ -1,0 +1,34 @@
+.popupCompWrapper {
+  margin-top: 25px;
+  width: 100%;
+}
+
+.popupButton {
+  width: 100%;
+  height: 30px;
+  border-radius: 5px;
+}
+
+.popupButton:hover {
+  cursor: pointer;
+}
+
+.contentWrapper {
+  font-size: 12px;
+}
+
+.close {
+  cursor: pointer;
+  position: absolute;
+  display: block;
+  line-height: 20px;
+  right: -10px;
+  top: -10px;
+  font-size: 24px;
+  background: #fff;
+  border-radius: 18px;
+  border: 1px solid #cfcece;
+  padding-bottom: 2px;
+  padding-left: 4px;
+  padding-right: 4px;
+}

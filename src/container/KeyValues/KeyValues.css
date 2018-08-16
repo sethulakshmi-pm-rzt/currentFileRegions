@@ -1,0 +1,34 @@
+.keyValuesContainer {
+  display: flex;
+  justify-content: flex-start;
+  flex-direction: column;
+  font-size: 13px;
+  border: 1px solid;
+  width: 100%;
+  height: 40%;
+  overflow-y: auto;
+  overflow-x: hidden;
+  margin-bottom: 50px;
+  max-height: 285px;
+  padding: 5px;
+}
+
+.valuesList {
+  display: block;
+  padding-left: 10px;
+}
+
+.displayText {
+  color: black;
+  font-size: 14px;
+  font-weight: 900;
+}
+
+.itemsWrapper {
+
+}
+
+.valueWrapper {
+  padding-top: 5px;
+  padding-bottom: 5px;
+}

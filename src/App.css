@@ -1,0 +1,59 @@
+.homePageWrapper {
+  height: 100%;
+}
+
+.appHeading {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-size: 30px;
+  height: 70px;
+  background: #e0e0e0;
+}
+
+.AppContent {
+  display: flex;
+  height: calc(100% - 100px);
+  border-bottom: 1px solid #e0e0e0;
+}
+
+.imageWrapper {
+  width: 60%;
+  height: 100%;
+  padding: 20px;
+}
+
+.dataWrapper {
+  width: 20%;
+  height: 100%;
+  background: #e0e0e0;
+  padding: 20px;
+}
+
+.imageHeader {
+  margin: 10px;
+  font-size: 12px;
+  display: inline-block;
+}
+
+.buttonStyle {
+  width: 70px;
+  height: 30px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-right: 20px;
+  border-radius: 10px;
+  box-shadow: unset;
+  border: 1px solid black;
+  background: black;
+  color: white;
+  outline: none;
+}
+
+.buttonStyle:hover {
+  cursor: pointer;
+  background: white;
+  color: black;
+  border: 1px solid #e0e0e0;
+}
